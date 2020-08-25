@@ -1,0 +1,183 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.nav{
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	background-color: white;
+	margin-left: 100px;
+
+}
+nav ul li{
+	display: inline;
+	list-style: none;
+}
+ul li {
+	margin-right: 100px;
+}
+.butn{
+	color: black;
+	background-color: orange;
+	font-size: 30px;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+.start{
+	display: inline;
+}
+.shop{
+	display: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.logo{
+	width: 50px;
+	height: 50px 
+}
+ nav.nav ul >i.fa-search{
+	position: absolute;
+	margin-left: -30px;
+	margin-top: 10px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+ nav.nav ul >input[type=text]{
+	width: 400px;
+	padding: 10px;
+	border-radius: 15px;
+	border:1px solid orange;
+	background-color: transparent;
+	position: relative;
+}
+.services{
+	background-color: orange;
+	height: 70vh;
+	position: fixed;
+	list-style-type: none;
+    margin-top: 30px;
+    padding: 40px;
+    padding-top: 10%;
+    font-size: 20px;
+}
+header{
+	padding-top: 90px;
+   
+}
+button >a{
+	color: black;
+	
+	
+}
+.vin{
+    border-radius: 20px;
+    width: 100px;
+	padding:10px;
+}
+header{
+	display: flex;
+}
+.background{
+	width: 80%;
+	margin-left: 290px;
+	height: 500px;
+	position: relative;
+}
+.hi{
+	position: absolute;
+	text-align: center;
+	margin-bottom: 100px;
+	top: 50%;
+	background-color: pink;
+}
+.image{
+	width: 200%;
+	background-image: url(../image/watch1.jpg);
+	height: 700px;
+	margin-left: 285px;
+	background-size: cover;
+	padding: -20px;
+}
+.fix{
+	position: fixed;
+}
+.button2{
+	color: red;
+	float: right;
+	margin-top: 600px;
+	padding: 10px 70px;
+	margin-right: -280px;
+	height: 80px;
+	font-size: 30px;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 20px 20px;
+}
+.gallary{
+	margin-top: 20px;
+	margin-left: 285px;
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	
+}
+.gallary1{
+	width: 400px;
+	height: 400px;
+}
+.buynow{
+	background-color: green;
+	color: white;
+}
+.gallary2{
+	/*margin-top: 20px;*/
+	margin-left: 285px;
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	margin-top: 410px;
+}
+.our{
+	text-align: center;
+}
+.footer{
+	height: 0px;
+	/*margin-left: 285px;*/
+	/*margin-top: 420px;*/
+	padding: 20px;
+	padding-top: 100px;
+	background-color: black;
+	bottom: 0;
+	text-align: center;
+	margin-top: 450px;
+	height: 90px;
+	
+
+}
+.footer1{
+	color: red;
+	margin-left: 100px;
+	margin-bottom: 100px;
+
+}
+.brand{
+	color: red;
+	display: flex;
+	justify-content: space-around;
+	margin-top: -100px;
+	
+	
+}
+.apple{
+	color: #f2d77a;
+	float: right;
+	margin-top: 100px;
+	padding: 10px 70px;
+	margin-right: 20px;
+	height: 80px;
+	font-size: 30px;
+}

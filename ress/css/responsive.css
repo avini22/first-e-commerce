@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) {
+	.nav{
+	display: block;
+	font-size: 10px; 
+	margin: 0px;
+	padding: 0px;
+
+	}
+	nav ul li{
+	display: block;
+	list-style: none;
+}
+	.fix{
+		text-align: center;
+	}
+	.nav >.fab {
+		padding: 10px;
+	}
+	.services{
+		display: none;
+	}
+	.image{
+		position: absolute;
+		max-width: 100%;
+		background-image: url(../image/watch1.jpg);
+		height: 300px;
+		margin-left: 0px;
+		background-size: cover;
+		margin-top: 100px;
+  }
+  .gallary{
+	margin-top: 500px;
+	margin-left: 0px;
+	display: inline-block;
+	height: 100px;
+  }
+  .gallary1{
+	max-width: auto;
+	height: 400px;
+}
+ul li {
+	margin-right: 0px;
+}
+
+.button2{
+	/*color: red;
+	float: right;
+	margin-top: 600px;
+	padding: 10px 70px;
+	margin-right: -280px;
+	height: 80px;
+	font-size: 30px;
+	background-color: orange;
+	cursor: pointer;
+	border-radius: 20px 20px;*/
+	display: none;
+}
+.gallary2{
+	margin-top: 0px;
+	margin-left: 0px;
+	display: block;
+	height: 100px;
+	margin-top: 100px;
+}
+.footer{
+	height: 80px;
+	margin-left: 0px;
+	margin-top: 320%;
+	padding: 20px;
+	padding-top: 0px;
+	background-color: black;
+}
+}
+.footer1{
+	color: white;
+	margin-top: 0px;
+}
+.brand{
+	color: white;
+	display: block;
+	
+}
+
+}
